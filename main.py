@@ -42,6 +42,7 @@ def start_custom_timer():
     custom_time_str = custom_time_entry.get()
     custom_hours,custom_minutes, custom_seconds = map(int, custom_time_str.split(":"))
     duration = custom_hours * 3600 +custom_minutes * 60 + custom_seconds
+    progress_bar["maximum"] = duration
     start_timer()
 
 

@@ -14,5 +14,5 @@ def notify(title = "Timer", msg="Time has ended"):
         title = title,
         message = msg,
         app_icon = app_icon,
-        timeout = 0,
+        timeout = 3,
         )
